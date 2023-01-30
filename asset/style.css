@@ -1,0 +1,119 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+    background-color: rgb(242,242,242);
+    font-family: Helvetica, Arial, sans-serif;;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.container{
+    max-width: 400px;
+    margin: 0 auto;
+}
+#name{
+    width: 100%;
+    border: 0;
+    outline: none;
+    font-size: 24px;
+    background-color: rgb(242,242,242);
+    padding: 16px 16px 16px 16px;
+}
+li{
+display: flex;
+}
+p{
+    margin: 0 1rem;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    color: rgb(234,215,215);
+ text-align: center;
+ font-size: 80px;
+ font-weight: 100;
+ margin: 2rem 0 1rem 0;
+}
+h2{
+    font-size: 14px;
+    padding: 2px;
+}
+h2:hover{
+    padding: 2px;
+  outline: 1px solid rgb(195, 125, 125);
+}
+.display{
+    display: none;
+}
+.clear{
+    display: none;
+}
+.flex1{
+    display: flex;
+    align-items: center;
+}
+.div1{
+    padding-left:16px;
+    /* padding-right: 30rem; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+li{
+    padding: 10px 0;
+    border-bottom:1px dashed black ;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.activity{
+    padding: 1rem 0;
+}
+span{
+    font-size: 1.2rem;
+    font-weight: 700;
+ color: rgb(232, 197, 197);
+}
+.lineThrough{
+    text-decoration: line-through
+}
